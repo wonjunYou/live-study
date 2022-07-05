@@ -1,12 +1,14 @@
 # 백기선님의 JAVA live-study
 live-study(https://github.com/whiteship/live-study)
 
-'목표'
+`목표`
 
 자바 소스 파일(.java)을 JVM으로 실행하는 과정 이해하기
 
+
 ## 목차
 <!-- TOC -->
+
 
 - [목차](#목차)
 - [JVM이란 무엇인가](#JVM이란-무엇인가)
