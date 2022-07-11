@@ -1,6 +1,6 @@
 # 백기선님의 JAVA live-study
 
-live-study(#https://github.com/whiteship/live-study)
+live-study(https://github.com/whiteship/live-study)
 
 `1주차 목표`
 
