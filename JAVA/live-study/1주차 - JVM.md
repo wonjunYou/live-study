@@ -84,6 +84,6 @@ JVM의 구성 요소는 크게 **3가지로 나눌 수 있다.**
 ## JDK와 JRE의 차이
 
 * JDK(Java Development Kit) : JRE + 개발에 필요한 실행 파일들(javac.exe)등
-* JRE(Java Runtime Environment) : JVM + 클래스 라이브러라(Java API) 오직 자바 프로그램을 실행할 목적이라면, JRE만 있어도 실행할 수 있다.
+* JRE(Java Runtime Environment) : JVM + 클래스 라이브러리(Java API) 오직 자바 프로그램을 실행할 목적이라면, JRE만 있어도 실행할 수 있다.
 
 
