@@ -88,7 +88,7 @@ public class EnumDemo {
 
 예제를 보면 알 수 있듯이, 생성자는 `private`으로 생성하여 사용한다.
 그 외의 접근 지정자를 이용하면 컴파일 에러가 발생한다.
-enum은 기본적으로 상수들의 집합이므로, 컴파일 타임에 모든 정보들이 고정되어야 한다. 따라서 `private` 생성자를 사용하여 enum타입에 접근을 막는다. `private` 키워드를 생략할 수도 있다. 자동으로 컴파일러가 private으로 컴파일하기 때문이다.
+enum은 기본적으로 상수들의 집합이므로, 컴파일 타임에 모든 정보들이 고정되어야 한다. 따라서 `private` 생성자를 사용하여 enum타입에 접근을 막는다. 생성자를 작성할 때 `private` 키워드를 생략할 수도 있다. 자동으로 컴파일러가 `private`으로 컴파일하기 때문이다.
 
 
 ### enum의 비교
@@ -159,8 +159,7 @@ public class EnumDemo{
 |`noneOf(Class elementType)`|빈 EnumSet을 반환한다.|
 |`of(E e1, E e2)`|열거형 상수 2개를 입력받아 새로운 EnumSet에 추가 후에 반환한다.|
 |`complementOf(EnumSet s)`|매개변수에 들어온 EnumSet의 열거형 상수들을 제외한 열거형 상수들을 새로운 EnumSet에 넣어 반환한다.|
-|`range(E from, E to)`|인자로 받은 열거형 상수 사이의 범위를
-인덱스의 순서대로 새로운 EnumSet에 넣어 반환한다.|
+|`range(E from, E to)`|인자로 받은 열거형 상수 사이의 범위를 인덱스의 순서대로 새로운 EnumSet에 넣어 반환한다.|
 
 Enum을 활용한 자료구조로 `HashMap`과 유사한 `EnumMap`도 존재한다.
 
